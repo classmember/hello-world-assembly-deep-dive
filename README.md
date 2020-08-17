@@ -116,7 +116,7 @@ push the rbp register. The rbp register is the base pointer, which points to the
 
 Set cfa offset to `16` bytes to reserve them from the stack.
 
-**Note:** CFA stands for Canonical Frame Address.
+**Note:** CFA stands for Call Frame Address.
 ```
 	.cfi_def_cfa_offset 16
 ```
